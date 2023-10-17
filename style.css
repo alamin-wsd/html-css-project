@@ -1,0 +1,180 @@
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: sans-serif;
+	}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+   For mobile phones: 
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.container{
+	width: 80%;
+	margin: auto;
+}
+nav{
+	background-color: #312F23;
+	width: 100%;
+	padding: 20px;
+	overflow: hidden;	
+}
+nav .logo{
+	width: 30%;
+	 float: left;
+}
+nav .menu{
+	width: 70%;
+	float: right;
+	text-align: right;
+}
+nav .menu ul li{
+	display: inline-block;
+	margin: 20px;
+}
+nav .menu ul li a{
+	color: white;
+	transition: 0.6;
+	text-decoration: none;
+	font-size: 18px;
+}
+nav .menu ul li a:hover{
+	color: brown;
+	background-color: black;
+}
+nav .logo a{
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	font-size: 22px;
+	font-family: cursive;
+	margin-top: 10px;
+}
+.hero{
+	background: url('img/sea.jpg');
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: left;
+}
+.hero h1{
+	color: white;
+}
+.hero h2{
+	color: white;
+	margin: 10px;
+}
+.hero h5{
+	color: white;
+	width: 50%;
+}
+.btn{
+	color: blanchedalmond;
+	display: inline-block;
+	font-size: 16px;
+	padding: 11px 32px 10px 31px;
+	background: yellowgreen;
+	border: 1px solid gray;
+	color: white;
+	text-transform: capitalize;
+	margin: 10px;
+	text-decoration: none;
+	transition: 0.6s;
+}
+.btn:hover{
+	background: white;
+	border: 1px solid white;
+	color: black;
+}
+.icons{
+	font-size:40px;
+	margin-top: 100px;
+	color: white;
+
+}
+.mydiv{
+	width: 250px;
+	height: 300px;
+	background: gray;
+	border-radius: 7px;
+	float: left;
+	margin-left: 100px; 
+	margin-bottom: 50px;
+}
+.mydiv i{
+	font-size: 50px;
+	color: white;
+	margin-top: 20px;
+	margin-left: 40%;
+	margin-bottom: 25px;
+}
+
+.mydiv h1{
+	font-size: 28px;
+	color: white;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.mydiv p{
+	color: white;
+	text-align: center;
+}
+.Investments{
+	background: url('img/sea.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 60px 0;
+}
+.Investments .Investments-content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.Investments .Investments-content h2{
+	color: #fff;
+	font-size: 40px;
+	width: 60%;
+}
+
+.Service{
+	background: #098;
+	padding: 80px 0;
+}
+
+
+
+
+
+
+
+
+
+ 
