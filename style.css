@@ -44,7 +44,7 @@ html{
 	scroll-behavior: smooth;
 }
 header{
-	background: url('../img/slide-01.jpg');
+	background: url('slide-01.jpg');
 	width: 100%;
 	height: 100vh;
 }
